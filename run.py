@@ -12,6 +12,7 @@ The rules are:
 
 
 def main():
+    """print the result for user choice"""
     print_introduction()
 
     choices = {1: 'Rock', 2: 'Paper', 3: 'Scissors'}
