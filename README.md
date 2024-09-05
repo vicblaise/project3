@@ -2,9 +2,12 @@
 
 This game is a python terminal game, which runs in the code institute mock 
 terminal on Heroku.
+below is the live version of project.
+
+![LiveVersion.png](documents/LiveVersion.png)
 
 
-## How to play
+S## How to play
 
 
 Rock paper scissors is a hand game, usually played between two people, in which 
@@ -32,6 +35,7 @@ and is usually replayed to break the tie.
 ![Userwin.png](documents/userwin.png)
 
 * when computer wins
+
 ![ComputerWins.png](documents/ComputerWins.png)
 
 
