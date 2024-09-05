@@ -1,32 +1,59 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# ROCK, PAPER, SCISSORS GAME.
 
-Welcome,
+This game is a python terminal game, which runs in the code institute mock 
+terminal on Heroku.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **May 14, 2024**
 
-## Reminders
+## How to play
 
-- Your code must be placed in the `run.py` file
-- Your dependencies must be placed in the `requirements.txt` file
-- Do not edit any of the other files or your code may not deploy properly
 
-## Creating the Heroku app
+Rock paper scissors is a hand game, usually played between two people, in which 
+each player forms one of three shapes with an outstretched hand. These shapes are 
+"rock" (a closed fist), "paper" (a flat hand), and "scissors" 
+(a fist with the index finger and middle finger extended, forming a V).
+it has three possible outcomes:a draw, a win, or a loss. A player who decides to
+play rock will beat another player who chooses scissors ("rock crushes scissors"
+or "breaks scissors" or sometimes "blunts scissors"), but will lose to one who has 
+played paper ("paper covers rock"); a play of paper will lose to a play of scissors
+("scissors cuts paper"). If both players choose the same shape, the game is tied
+and is usually replayed to break the tie.
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
 
-1. `heroku/python`
-2. `heroku/nodejs`
+## FEATURES
+### Some of the existing features are:
+* Features of when there is a draw, when both players happen to choose same numbers
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+![Draw.png](documents/Draw.png)
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+* Some of the rules of the game in order to help play properly
+![Rules.png](documents/Rules.png)
 
-Connect your GitHub repository and deploy as normal.
+* when the user wins probably the user chose Rock.
+![Userwin.png](documents/userwin.png)
 
-## Constraints
+* when computer wins
+![ComputerWins.png](documents/ComputerWins.png)
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
 
----
+## TESTING
+I have tested the codes in few ways which are mentioned below:
+* I passed the code through pep8 linter and i can confidently state that no error 
+was found or detected.
+* i have also added a number not required and i got the desired error meesage.
+* i also tested in my local terminal.
 
-Happy coding!
+## BUGS
+Those solved.
+* while writing the code i came across some indentation and syntax error but 
+i was able to identify them and solved it.
+* i also came across 'whitespace' error around oprators but i also corrected it.
+
+There were no unsolved bugs.
+
+## DEPLOYMENT
+ this project was deployed using code institute's mock heroku terminal. and 
+ some of the steps taking for deployments are:
+ * create a new Heroku app
+ * set the buildbacks to python and nodejs accordingly
+ * Link the Heroku app to repository and finally,
+ * clicked on deploy.
